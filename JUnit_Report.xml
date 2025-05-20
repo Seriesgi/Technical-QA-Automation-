@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Weather_AirPollution_TestSuite" time="23.307" tests="2" failures="0" errors="0">
+   <testsuite name="Weather_AirPollution_TestSuite" tests="2" failures="0" errors="0" time="23.307" skipped="0" timestamp="20-05-2025T20:39:58" hostname="Sharing Vision - DESKTOP-B5LD58L" id="Test Suites/Weather_AirPollution_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Sharing Vision\\Katalon Studio\\OpenWeatherMap_API_Test\\Reports\\20250520_203953\\Weather_AirPollution_TestSuite\\20250520_203953"/>
+         <property name="logFiles" value="C:\\Users\\Sharing Vision\\Katalon Studio\\OpenWeatherMap_API_Test\\Reports\\20250520_203953\\Weather_AirPollution_TestSuite\\20250520_203953\\console0.log, C:\\Users\\Sharing Vision\\Katalon Studio\\OpenWeatherMap_API_Test\\Reports\\20250520_203953\\Weather_AirPollution_TestSuite\\20250520_203953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Muhammad Rizaldi"/>
+         <property name="hostName" value="Sharing Vision - DESKTOP-B5LD58L"/>
+         <property name="hostAddress" value="192.168.100.10"/>
+         <property name="projectName" value="OpenWeatherMap_API_Test"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation" time="12.264" classname="Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation" status="PASSED">
+         <system-out><![CDATA[20-05-2025T20:39:59 - [TEST_CASE][PASSED] - Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation: Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation
+
+20-05-2025T20:39:59 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:39:59 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:39:59 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get_Weather_JakartaSelatan")): Send request successfully
+
+20-05-2025T20:40:01 - [MESSAGE][INFO] - HAR: C:\Users\Sharing Vision\Katalon Studio\OpenWeatherMap_API_Test\Reports\20250520_203953\Weather_AirPollution_TestSuite\20250520_203953\requests\main\Get_Weath...Selatan_0.har
+
+20-05-2025T20:40:01 - [MESSAGE][PASSED] - Send request successfully
+
+20-05-2025T20:40:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-05-2025T20:40:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-05-2025T20:40:11 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:40:11 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_AirPollution_Validation/AirPollution Validation" time="10.321" classname="Test Cases/TC_AirPollution_Validation/AirPollution Validation" status="PASSED">
+         <system-out><![CDATA[20-05-2025T20:40:11 - [TEST_CASE][PASSED] - Test Cases/TC_AirPollution_Validation/AirPollution Validation: Test Cases/TC_AirPollution_Validation/AirPollution Validation
+
+20-05-2025T20:40:11 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:40:11 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:40:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get_AirPollution_JakartaSelatan")): Send request successfully
+
+20-05-2025T20:40:11 - [MESSAGE][INFO] - HAR: C:\Users\Sharing Vision\Katalon Studio\OpenWeatherMap_API_Test\Reports\20250520_203953\Weather_AirPollution_TestSuite\20250520_203953\requests\main\Get_AirPo...Selatan_1.har
+
+20-05-2025T20:40:11 - [MESSAGE][PASSED] - Send request successfully
+
+20-05-2025T20:40:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-05-2025T20:40:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-05-2025T20:40:21 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+20-05-2025T20:40:21 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-05-2025T20:39:58 - [TEST_STEP][PASSED] - Start listener action : getListBindingTC: null
+
+20-05-2025T20:39:58 - [TEST_SUITE][PASSED] - Weather_AirPollution_TestSuite: Test Cases/TC_AirPollution_Validation/AirPollution Validation
+
+20-05-2025T20:40:21 - [TEST_STEP][PASSED] - Start listener action : createTSSuiteFile: No suite is created because there's no failed TC.
+
+20-05-2025T20:40:21 - [MESSAGE][INFO] - No suite is created because there's no failed TC.
+
+20-05-2025T20:40:21 - [TEST_STEP][PASSED] - Start listener action : createGroovySuiteFile: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

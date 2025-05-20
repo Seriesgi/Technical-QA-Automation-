@@ -1,0 +1,28 @@
+2025-05-20 20:39:58.449 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Weather_AirPollution_TestSuite
+2025-05-20 20:39:58.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Muhammad Rizaldi
+2025-05-20 20:39:58.565 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = OpenWeatherMap_API_Test
+2025-05-20 20:39:58.566 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Sharing Vision - DESKTOP-B5LD58L
+2025-05-20 20:39:58.566 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-05-20 20:39:58.567 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.10
+2025-05-20 20:39:58.568 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-20 20:39:58.615 WARN  c.k.katalon.core.logging.KeywordLogger   - Please use "KeywordUtil.logInfo()" instead of "new KeywordLogger()" constructor. "KeywordLogger" is an internal API and might be changed in the future.
+2025-05-20 20:39:59.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-20 20:39:59.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation
+2025-05-20 20:39:59.323 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-20 20:39:59.492 DEBUG testcase.WeatherForecast Validation      - 1: sendRequest(findTestObject("Get_Weather_JakartaSelatan"))
+2025-05-20 20:40:01.386 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\Sharing Vision\Katalon Studio\OpenWeatherMap_API_Test\Reports\20250520_203953\Weather_AirPollution_TestSuite\20250520_203953\requests\main\Get_Weath...Selatan_0.har
+2025-05-20 20:40:01.471 DEBUG testcase.WeatherForecast Validation      - 2: delay(10)
+2025-05-20 20:40:11.516 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-20 20:40:11.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation
+2025-05-20 20:40:11.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-20 20:40:11.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_AirPollution_Validation/AirPollution Validation
+2025-05-20 20:40:11.544 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-20 20:40:11.604 DEBUG testcase.AirPollution Validation         - 1: sendRequest(findTestObject("Get_AirPollution_JakartaSelatan"))
+2025-05-20 20:40:11.819 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\Sharing Vision\Katalon Studio\OpenWeatherMap_API_Test\Reports\20250520_203953\Weather_AirPollution_TestSuite\20250520_203953\requests\main\Get_AirPo...Selatan_1.har
+2025-05-20 20:40:11.824 DEBUG testcase.AirPollution Validation         - 2: delay(10)
+2025-05-20 20:40:21.843 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-20 20:40:21.844 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_AirPollution_Validation/AirPollution Validation
+2025-05-20 20:40:21.847 INFO  c.k.katalon.core.logging.KeywordLogger   - No suite is created because there's no failed TC.
+2025-05-20 20:40:21.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-20 20:40:21.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Weather_AirPollution_TestSuite
+2025-05-20 20:40:21.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Weather_AirPollution_TestSuite,,,,20-05-2025 20:39:58,20-05-2025 20:40:21,23.368s,PASSED
+,,,,,,,
+Start listener action : getListBindingTC,,,,20-05-2025 20:39:58,20-05-2025 20:39:58,0.051s,PASSED
+,,,,,,,
+Test Cases/TC_WeatherForecast_Validation/WeatherForecast Validation,,,,20-05-2025 20:39:59,20-05-2025 20:40:11,12.264s,PASSED
+Start listener action : executeRows,,,,20-05-2025 20:39:59,20-05-2025 20:39:59,0.028s,PASSED
+"sendRequest(findTestObject(""Get_Weather_JakartaSelatan""))",,,,20-05-2025 20:39:59,20-05-2025 20:40:01,1.979s,PASSED
+delay(10),,,,20-05-2025 20:40:01,20-05-2025 20:40:11,10.042s,PASSED
+Start listener action : addFailedTCToList,,,,20-05-2025 20:40:11,20-05-2025 20:40:11,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_AirPollution_Validation/AirPollution Validation,,,,20-05-2025 20:40:11,20-05-2025 20:40:21,10.321s,PASSED
+Start listener action : executeRows,,,,20-05-2025 20:40:11,20-05-2025 20:40:11,0.002s,PASSED
+"sendRequest(findTestObject(""Get_AirPollution_JakartaSelatan""))",,,,20-05-2025 20:40:11,20-05-2025 20:40:11,0.220s,PASSED
+delay(10),,,,20-05-2025 20:40:11,20-05-2025 20:40:21,10.018s,PASSED
+Start listener action : addFailedTCToList,,,,20-05-2025 20:40:21,20-05-2025 20:40:21,0.001s,PASSED
+,,,,,,,
+Start listener action : createTSSuiteFile,,,,20-05-2025 20:40:21,20-05-2025 20:40:21,0.002s,PASSED
+Start listener action : createGroovySuiteFile,,,,20-05-2025 20:40:21,20-05-2025 20:40:21,0.001s,PASSED
